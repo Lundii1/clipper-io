@@ -8,9 +8,39 @@
     color: white;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease;
+    
   }
-  
+  h1,p{
+    text-align: center;
+  }
   .instagram:hover {
-    background: linear-gradient(45deg, #f9ce39, #ee2a9b, #6228d9);
+    background: linear-gradient(52deg, #f9ce39, #ee2a9b, #6228d9);
+  }
+  form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    padding:1px;
+  }
+  .button{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .link {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .inputURL {
+    flex-grow: 1;
+  }
+
+  .paste {
+    flex-grow: 0; 
+    margin: 0;
+    margin-left: 5px;
+    height: 40px;
   }
